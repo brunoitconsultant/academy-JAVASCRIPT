@@ -1,6 +1,8 @@
 ﻿https://www.cecwellington.ac.nz/courses/1422-javascript-programming-an-introduction
 ROOM: COM2B
 
+
+
 Course #1
 	Session 1: 	Tue, 26 Feb 	(19:30 – 21:30)
 	Session 2: 	Tue, 05 Mar 	(19:30 – 21:30)
@@ -8,7 +10,22 @@ Course #1
 	Session 4: 	Tue, 19 Mar 	(19:30 – 21:30)
 	Session 5: 	Tue, 26 Mar	(19:30 – 21:30)
 	Session 6: 	Tue, 02 Apr 	(19:30 – 21:30)
--------------------------------------------------------
+
+(April break)
+
+
+
+
+
+
+
+
+
+
+(July break)
+
+
+
 Course #2
 	Session 1: 	Tue, 13 Ago 	(19:30 – 21:30)
 	Session 2: 	Tue, 20 Ago 	(19:30 – 21:30)
@@ -16,4 +33,6 @@ Course #2
 	Session 4: 	Tue, 03 Sep 	(19:30 – 21:30)
 	Session 5: 	Tue, 10 Sep 	(19:30 – 21:30)
 	Session 6: 	Tue, 17 Sep 	(19:30 – 21:30)
--------------------------------------------------------
+
+
+
