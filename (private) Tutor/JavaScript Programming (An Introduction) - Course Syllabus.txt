@@ -1,0 +1,33 @@
+Course Goal:
+
+	- Understand what JavaScript is and why is such an important language to learn
+	- Use your favourite Text Editor to write JavaScript programs
+	- Understand the main coding techniques and used them effectively
+	- Develop your own dynamic web pages using JavaScript language
+
+Course Syllabus:
+
+	- Understand the history of JavaScript, where does it fit in the Web Development landscape and what are the benefits of learning it.
+	- What can I do with Javascript:
+		. Put content in a HTML page on the fly
+		. Make Webpages Responsive
+		. Detect a User Browser &amp; Other Info
+		. Create Cookies
+		. Validate Forms
+		. Create animations, slideshows, scrollers, etc
+		. Build apps with JavaScript Frameworks (AngularJS, ReactJS, BackboneJS, etc)
+	- Understand which editors are most popular in the development community.
+	- Learn how to combine JavaScript code into HTML pages (pros and cons)
+	- Language Fundamentals: 
+		. What are Variables
+		. Most common Data Types
+		. What are Arrays and why to use them
+		. Learn how to Loops
+		. Conditionals
+		. Comparisons
+		. Using and calling Objects
+		. Program Flow, Events
+		. What are Forms
+	- Object Oriented (OO)
+		. Intro to Object Oriented Programming
+		. Properties
