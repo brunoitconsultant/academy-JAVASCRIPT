@@ -70,6 +70,7 @@ function Eliot_CheckOnline(){
 		document.getElementById("txtProblem4").value = "Finally... Can you tell me what the duck is Stage 2?";
 		document.getElementById("btnHandshake").hidden = false;
 		document.getElementById("lblResult4").innerHTML = IRC_log;
+		document.getElementById("btnDecodePwd").disabled = false;
 		console.log("Eliot is finally online!! He's been arrested " + dayElliotIsOnline + " days. Pigs!");
 	}else{
 		document.getElementById("lblResult4").innerHTML = "Eliot is offline :("
@@ -94,4 +95,35 @@ function Eliot_Handshake(){
 		document.getElementById("txtProblem4").hidden = true;
 		document.getElementById("btnHandshake").hidden = true;
 	}
+}
+//Hacking Test #4
+function Password_Decoding() {
+
+	var taskFourDuration = 15
+		,possibleRaysPasswords = 
+		[
+			'mobleyAndTrentonAreDead'
+			,'tyrellIsElliot'
+			,'dreadPirateRoberts'
+		]
+		,smallest_pos = -1
+		,last_size = 0
+		,value_split = ""
+		,decrypted_value = "";
+
+	for (var i = 0; i <= possibleRaysPasswords.length - 1; i++) {
+		if(smallest_pos == -1 
+			|| possibleRaysPasswords[i].length < last_size){
+			smallest_pos = i;
+			last_size = possibleRaysPasswords[i].length;
+		}
+	}
+
+	value_split = possibleRaysPasswords[smallest_pos].split("");
+
+	for (var i = value_split.length - 1; i >= 0; i--) {
+		decrypted_value += value_split[i] + "<br>";
+	}
+
+	document.getElementById("lblResult5").innerHTML = decrypted_value;
 }
