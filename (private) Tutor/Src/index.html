@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Sandbox</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript">
+		console.log("I wanna play a game: it’s called ‘Can you handle Mr. Reboot’s Code Challenge?’");
+	</script>
+	<script type="text/javascript" src="javascript/string_reverse.js"></script>
+	<script type="text/javascript" src="javascript/Hacking_Tests.js"></script>
+</head>
+<body>
+	<header id="main-header">
+		<h1>Welcome to my Javascript sandbox</h1>	
+	</header>
+	<nav id="main-nav">
+		<ul>
+			<li><a href="#">Exercices</a></li>
+			<li><a href="#">Tutorial</a></li>
+			<li><a href="#">Examples</a></li>
+			<li><a href="#">Extra</a></li>
+		</ul>
+	</nav>
+	<p>
+		<div class="container">
+			<section id="section-left">
+				<h4>String Reverser:</h4>
+				<br>
+				<input type="text" id="txtProblem" placeholder="Enter your text">
+				<button onclick="reverseString(document.getElementById('txtProblem').value)">Reverse</button>
+			</section>
+		</div>
+		<div class="container">
+			<section id="section-right">
+				<h5>Result</h5>
+				<br>
+				<label id="lblResult1">missing.....</label>
+			</section>
+		</div>
+	</p>
+	<div class="reset_layout">
+	</div>
+	<hr>
+	<p>
+		<div class="container">
+			<section id="section-left">
+				<h4>#1 Hacking Test: Connect to IRC</h4>
+				<br>
+				<input type="text" id="txtProblem2" placeholder="Enter your alias">
+				<button onclick="Connect_IRC(document.getElementById('txtProblem2').value)">Connect</button>
+			</section>
+		</div>
+		<div class="container">
+			<section id="section-right">
+				<h5>Result</h5>
+				<br>
+				<label id="lblResult2">not connected.....</label>
+			</section>
+		</div>
+	</p>
+	<div class="reset_layout">
+	</div>
+	<hr>
+	<p>
+		<div class="container">
+			<section id="section-left">
+				<h4>#2 Hacking Test: Join IRC</h4>
+				<br>
+				<input type="text" id="txtProblem3" placeholder="Enter your Password">
+				<button onclick="Join_IRC(document.getElementById('txtProblem3').value)">Join IRC</button>
+			</section>
+		</div>
+		<div class="container">
+			<section id="section-right">
+				<h5>Result</h5>
+				<br>
+				<label id="lblResult3">you're offline.....</label>
+			</section>
+		</div>
+	</p>
+	<div class="reset_layout">
+	</div>
+	<hr>
+	<p>
+		<div class="container">
+			<section id="section-left">
+				<h4>#3 Hacking Test: Eliot's handshake</h4>
+				<br>
+				<button id="btnCheckOnline" onclick="Eliot_CheckOnline()">Is Eliot online?</button>
+				<br><br>
+				<input type="text" id="txtProblem4" placeholder="">
+				<button id="btnHandshake" onclick="Eliot_Handshake()">Handshake</button>
+			</section>
+		</div>
+		<div class="container">
+			<section id="section-right">
+				<h5>Result</h5>
+				<br>
+				<label id="lblResult4">Eliot's status is unknown.....</label>
+			</section>
+		</div>
+	</p>
+</body>
+<script type="text/javascript">
+	document.getElementById("txtProblem4").hidden = true;
+	document.getElementById("btnCheckOnline").disabled = true;
+	document.getElementById("btnHandshake").hidden = true;
+</script>
+</html>
